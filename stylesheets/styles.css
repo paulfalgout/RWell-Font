@@ -345,7 +345,7 @@ section {
     margin-right: 15px;
     width: 200px;
 }
-.font-icon, .hidden-false input.unitRight{
+.font-icon, fieldset input.unitRight{
     cursor: pointer;
     display: block;
     margin-bottom:35px;
@@ -365,7 +365,12 @@ section {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
-.font-icon:hover,, .hidden-false input.unitRight:hover{
+.font-icon:hover,, fieldset input.unitRight:hover{
     background: #f2f2f2;
 }
 .hidden-true{ display:none; }
+#font-size{
+    padding: 5px;
+    font-size: 16px;
+    margin-bottom:25px;
+}
