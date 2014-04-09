@@ -352,6 +352,18 @@ section {
     padding: 20px;
     text-align: center;
     width: 160px;
+	font-family: 'rwell-provider';
+	speak: none;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 .font-icon:hover,, .hidden-false input.unitRight:hover{
     background: #f2f2f2;
